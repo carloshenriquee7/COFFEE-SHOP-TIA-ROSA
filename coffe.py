@@ -228,6 +228,7 @@ def menu_principal():
 
 if __name__ == "__main__":
     print("Bem-vindo ao Sistema Coffee Shop Tia Rosa!")
-    print("Sistema iniciando...")
+
 
     menu_principal()
+
