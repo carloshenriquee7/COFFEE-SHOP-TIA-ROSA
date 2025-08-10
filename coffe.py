@@ -1,7 +1,7 @@
 # SISTEMA COFFEE SHOP TIA ROSA - 
 
 # ============================================================================
-# PARTE 1: ESSA PARTE EU FIZ O DICIONARIO
+# PARTE 1: ESSA PARTE EU FIZ O MENU
 # ============================================================================
 
 produtos = [
@@ -188,7 +188,7 @@ def mostrar_vendas():
     print(f"Ticket médio: R$ {ticket_medio:.2f}")
 
 # ============================================================================
-# PARTE 3: MENU
+# PARTE 3: OPÇOES DE FUNCIONALIDADES
 # ============================================================================
 
 def menu_principal():
@@ -229,4 +229,5 @@ def menu_principal():
 if __name__ == "__main__":
     print("Bem-vindo ao Sistema Coffee Shop Tia Rosa!")
     print("Sistema iniciando...")
+
     menu_principal()
